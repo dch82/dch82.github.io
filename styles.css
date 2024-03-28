@@ -1,28 +1,27 @@
-:root {
-    font-family: Inter, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
-}
-@supports (font-variation-settings: normal) {
-    :root { font-family: InterVariable, sans-serif; }
-}
-
-/* 1. Create global variables for text and background color */
-:root {
-    --color-text: black;
-    --color-background: white;
-}
-  
-/* 2. Add conditional styling for dark mode preference */
-@media (prefers-color-scheme: dark) {
-    /* Re-assign previous variables */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
     :root {
-      --color-text: white; /* black => white */
-      --color-background: black; /* white => black */
+        color-scheme: light dark;
+        --main-bg-color: #BBC2CA;
+        --card-bg-color: #fff;
+        --icon-bg-color: #f8cb95;
+        --main-light-onColor: #979ca3;
+        --main-dark-onColor: #4b4b4b;
     }
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --main-bg-color: #040404;
+            --card-bg-color: #3a3a38;
+            --icon-bg-color: #f7d1a2;
+            --main-light-onColor: #aeb4bd;
+            --main-dark-onColor: #777676;
+        }
+    }
+   
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
-  
-/* 3. Assign variables to page color and background */
-body {
-    color: var(--color-text);
-    background-color: var(--color-background);
+body{
+    background: var(--main-bg-color);
 }
