@@ -6,16 +6,23 @@
     :root { font-family: InterVariable, sans-serif; }
 }
 
-/* Light mode styles */
-body {
-    background-color: #ffffff;
-    color: #000000;
+/* 1. Create global variables for text and background color */
+:root {
+    --color-text: black;
+    --color-background: white;
 }
   
-/* Dark mode styles */
+/* 2. Add conditional styling for dark mode preference */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #000000;
-        color: #ffffff;
+    /* Re-assign previous variables */
+    :root {
+      --color-text: white; /* black => white */
+      --color-background: black; /* white => black */
     }
+}
+  
+/* 3. Assign variables to page color and background */
+body {
+    color: var(--color-text);
+    background-color: var(--color-background);
 }
