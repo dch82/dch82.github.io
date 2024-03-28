@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
     :root {
         color-scheme: light dark;
-        --main-bg-color: #BBC2CA;
-        --card-bg-color: #fff;
-        --icon-bg-color: #f8cb95;
-        --main-light-onColor: #979ca3;
-        --main-dark-onColor: #4b4b4b;
+        --main-bg-color: #ffffff;
+        --card-bg-color: #ffffff;
+        --icon-bg-color: #ffffff;
+        --main-light-onColor: #ffffff;
+        --main-dark-onColor: #000000;
     }
     @media (prefers-color-scheme: dark) {
         :root {
-            --main-bg-color: #040404;
-            --card-bg-color: #3a3a38;
-            --icon-bg-color: #f7d1a2;
-            --main-light-onColor: #aeb4bd;
-            --main-dark-onColor: #777676;
+            --main-bg-color: #000000;
+            --card-bg-color: #000000;
+            --icon-bg-color: #ffffff;
+            --main-light-onColor: #ffffff;
+            --main-dark-onColor: #000000;
         }
     }
    
