@@ -1,27 +1,5 @@
-@import "https://rsms.me/inter/inter.css"
-:root {
-        color-scheme: light dark;
-        --main-bg-color: #ffffff;
-        --card-bg-color: #ffffff;
-        --icon-bg-color: #ffffff;
-        --main-light-onColor: #ffffff;
-        --main-dark-onColor: #000000;
-    }
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --main-bg-color: #000000;
-            --card-bg-color: #000000;
-            --icon-bg-color: #ffffff;
-            --main-light-onColor: #ffffff;
-            --main-dark-onColor: #000000;
-        }
-    }
-   
-*{
+{
     font-family: Inter, sans-serif;
     box-sizing: border-box;
     margin: 0;
-}
-body{
-    background: var(--main-bg-color);
 }
