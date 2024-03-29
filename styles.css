@@ -1,11 +1,3 @@
 {
     font-family: Inter, sans-serif;
 }
-
-/* (B1) BIG SCREEN - 4 PER ROW */
-.glist {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    padding: 0; margin: 0;
-  }
-  .glist li { list-style-type: none; }
