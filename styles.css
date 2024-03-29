@@ -2,11 +2,18 @@
     font-family: Inter, sans-serif;
 }
 
-.flex-container {
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
+  }
+  
+  .column {
+    flex-basis: 100%;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .column {
+      flex: 1;
+    }
   }
