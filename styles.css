@@ -6,11 +6,6 @@
 @supports (font-variation-settings: normal) {
   :root { --pico-font-family: InterVariable, sans-serif; }
 }
-
-.flex-grid-thirds {
-  display: flex;
-  justify-content: space-between;
-}
-.flex-grid-thirds .col {
-  width: 32%;
+.col-md-6 {
+  flex-basis: 50%;
 }
