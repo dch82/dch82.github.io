@@ -5,13 +5,11 @@ class Header extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
-        <header class="container-fluid">
-          <h1>
-            <a href="index.html">
-              Danche Choi
-            </a>
-          </h1>
-        </header>
+        <h1>
+          <a href="index.html">
+            Danche Choi
+          </a>
+        </h1>
       `;
     }
   }
