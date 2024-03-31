@@ -6,6 +6,3 @@
 @supports (font-variation-settings: normal) {
   :root { --pico-font-family: InterVariable, sans-serif; }
 }
-.col-md-6 {
-  flex-basis: 50%;
-}
