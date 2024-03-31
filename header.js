@@ -5,9 +5,11 @@ class Header extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
+      <a href="index.html">
         <h1>
           Danche Choi
         </h1>
+      </a>
       `;
     }
   }
