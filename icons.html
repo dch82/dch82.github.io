@@ -37,15 +37,6 @@
         }
       }
     </style>
-    <script>
-      const openButton = document.getElementById("showInstallInfo");
-      const dialog = document.getElementById("installModal");
-
-      // Update button opens a modal dialog
-      openButton.addEventListener("click", () => {
-        dialog.showModal();
-      });
-    </script>
 
     <meta name="theme-color" content="#DAD4C2" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#55524A" media="(prefers-color-scheme: dark)"> 
@@ -78,33 +69,30 @@
             <p>
               To download, just save the images.
             </p>
-            <button id="showInstallInfo">Open installation instructions</button>
-            <dialog id="installModal">
-              <article>
-                <h2>How to install</h2>
-                <i><b>Finder requires different steps</b></i>
-                <ol>
-                  <li>
+            <details>
+              <summary>How to install</summary>
+              <i><b>Finder requires different steps</b></i>
+              <ol>
+                <li>
+                  <span>
+                  To theme system icons and icons of apps from the app store,
+                  you need to
+                  </span>
+                  <a href="https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection#SIP">
                     <span>
-                    To theme system icons and icons of apps from the app store,
-                    you need to
+                      disable System Integrity Protection
                     </span>
-                    <a href="https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection#SIP">
-                      <span>
-                        disable System Integrity Protection
-                      </span>
-                    </a>
-                    <span>
-                      first.
-                    </span>
-                  </li>
-                  <li>
-                    Find the application you want to theme in Finder.
-                    It might be in <code>/Application</code> or <code>/Users/<i>username</i>/Applications</code>.
-                  </li>
-                </ol>
-              </article>
-            </dialog>
+                  </a>
+                  <span>
+                    first.
+                  </span>
+                </li>
+                <li>
+                  Find the application you want to theme in Finder.
+                  It might be in <code>/Application</code> or <code>/Users/<i>username</i>/Applications</code>.
+                </li>
+              </ol>
+            </details>
           </div>
           <div class="col-xs-12
                       col-sm-6
