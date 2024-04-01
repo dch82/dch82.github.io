@@ -110,8 +110,8 @@
   --pico-button-hover-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   --pico-table-border-color: var(--pico-muted-border-color);
   --pico-table-row-stripped-background-color: rgba(0, 0, 0, 0.038);
-  --pico-code-background-color: #ffffff;
-  --pico-code-color: #000000;
+  --pico-code-background-color: #000000;
+  --pico-code-color: #ffffff;
   --pico-code-kbd-background-color: var(--pico-color);
   --pico-code-kbd-color: var(--pico-background-color);
   --pico-form-element-background-color: #ffffff;
