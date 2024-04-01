@@ -29,17 +29,11 @@
   --slate-blue: color(display-p3 0.4 0.4 1);
   --slate-blue-fallback: color(sRGB 0.4 0.4 1);
 
-  /* Purple */
-  --purple: color(display-p3 0.6 0.2 0.8);
-  --purple-fallback: color(sRGB 0.6 0.2 0.8);
-
-  /* Orange */
-  --orange: color(display-p3 1 0.5 0.2);
-  --orange-fallback: color(sRGB 1 0.5 0.2);
-
+  /* Coral Dark */
   --coral-dark: color(display-p3 0.6 0.1 0.1);
   --coral-dark-fallback: color(sRGB 0.6 0.1 0.1);
 
+  /* Salmon Dark */
   --salmon-dark: color(display-p3 0.6 0.4 0.1);
   --salmon-dark-fallback: color(sRGB 0.6 0.4 0.1);
 
@@ -51,12 +45,6 @@
 
   --slate-blue-dark: color(display-p3 0.2 0.2 0.6);
   --slate-blue-dark-fallback: color(sRGB 0.2 0.2 0.6);
-
-  --purple-dark: color(display-p3 0.4 0.1 0.4);
-  --purple-dark-fallback: color(sRGB 0.4 0.1 0.4);
-
-  --orange-dark: color(display-p3 0.8 0.2 0.1);
-  --orange-dark-fallback: color(sRGB 0.8 0.2 0.1);
 }
 
 /* Media Query to Detect Lack of Display P3 Support */
@@ -68,15 +56,11 @@
     --pale-yellow: var(--pale-yellow-fallback);
     --pale-turquoise: var(--pale-turquoise-fallback);
     --slate-blue: var(--slate-blue-fallback);
-    --purple: var(--purple-fallback);
-    --orange: var(--orange-fallback);
     --coral-dark: var(--coral-dark-fallback);
     --salmon-dark: var(--salmon-dark-fallback);
     --pale-yellow-dark: var(--pale-yellow-dark-fallback);
     --pale-turquoise-dark: var(--pale-turquoise-dark-fallback);
     --slate-blue-dark: var(--slate-blue-dark-fallback);
-    --purple-dark: var(--purple-dark-fallback);
-    --orange-dark: var(--orange-dark-fallback);
   }
 }
 
@@ -88,8 +72,6 @@
     --pale-yellow: var(--pale-yellow-dark);
     --pale-turquoise: var(--pale-turquoise-dark);
     --slate-blue: var(--slate-blue-dark);
-    --purple: var(--purple-dark);
-    --orange: var(--orange-dark);
   }
 }
 
