@@ -1,5 +1,7 @@
 article {
-  border-style: solid
+  border-style: solid;
+  border-width: --pico-border-width;
+  border-radius: --pico-border-radius;
 }
 /* Pastel Colors with Display P3 and sRGB Fallbacks (including dark variants) */
 :root {
