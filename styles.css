@@ -1,12 +1,5 @@
-* {
-  --pico-outline-width: 0.125rem;
-  --pico-border-width: 0.125rem;
-  border-width: 0.125rem;
-  outline-width: 0.125rem;
-}
-
 article {
-  border-style: solid
+  outline-style: solid
 }
 /* Pastel Colors with Display P3 and sRGB Fallbacks (including dark variants) */
 :root {
