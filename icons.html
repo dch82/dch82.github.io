@@ -20,19 +20,19 @@
     <style>
       /* Light color scheme (Default) */
       :root:not([data-theme="dark"]) {
-        --pico-background-color: var(--lima-green);
+        --pico-background-color: var(--lima-green-light);
       }
       /* Dark color scheme (Auto) */
       /* Automatically enabled if user has Dark mode enabled */
       @media only screen and (prefers-color-scheme: dark) {
         :root:not([data-theme]) {
-          --pico-background-color: var(--lima-green);
+          --pico-background-color: var(--lima-green-dark);
         }
       }
     </style>
 
-    <meta name="theme-color" content="var(--pale-turquoise)" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="var(--pale-turquoise-dark)" media="(prefers-color-scheme: dark)"> 
+    <meta name="theme-color" content="var(--lima-green-light)" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="var(--lima-green-dark)" media="(prefers-color-scheme: dark)"> 
 
     <a rel="me" href="https://defcon.social/@dch82" hidden>Mastodon</a>
   </head>
