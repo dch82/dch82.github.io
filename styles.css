@@ -43,8 +43,11 @@ article {
   --sky-blue-dark: lch(20% 14.2 243);
 }
 
-:root {
-  --pico-text-decoration: overline;
+a {
+  --pico-text-decoration: underline wavy;
+}
+a.secondary, a.contrast {
+  --pico-text-decoration: underline wavy;
 }
 
 [data-theme=light],
