@@ -17,61 +17,30 @@ article {
   outline-width: 0.0625rem;
 }
 
-/* Pastel Colors with Display P3 and sRGB Fallbacks (including dark variants) */
 :root {
-  /* Coral */
-  --coral: color(display-p3 1 0.4 0.4);
-  --coral-fallback: color(sRGB 1 0.4 0.4);
+  /* Lima Green */
+  --lima-green-light: lch(80% 76.1 128.19);
+  --lima-green-dark: lch(20% 27.2 128.19);
 
-  /* Salmon */
-  --salmon: color(display-p3 1 0.8 0.4);
-  --salmon-fallback: color(sRGB 1 0.8 0.4);
+  /* Mustard Yellow */
+  --mustard-yellow-light: lch(80% 59.2 93);
+  --mustard-yellow-dark: lch(20% 20.8 93);
 
-  /* Pale Yellow */
-  --pale-yellow: color(display-p3 1 1 0.6);
-  --pale-yellow-fallback: color(sRGB 1 1 0.6);
+  /* Carrot Orange */
+  --carrot-orange-light: lch(80% 64.4 77.41);
+  --carrot-orange-dark: lch(20% 22.6 77.41);
 
-  /* Pale Turquoise */
-  --pale-turquoise: color(display-p3 0.6 1 0.6);
-  --pale-turquoise-fallback: color(sRGB 0.6 1 0.6);
+  /* Melon Red */
+  --melon-red-light: lch(80% 31.6 31.27);
+  --melon-red-dark: lch(20% 25 31.27);
 
-  /* Slate Blue */
-  --slate-blue: color(display-p3 0.4 0.4 1);
-  --slate-blue-fallback: color(sRGB 0.4 0.4 1);
+  /* Plum Purple */
+  --plum-purple-light: lch(80% 14.9 276.26);
+  --plum-purple-dark: lch(20% 18.2 276.26);
 
-  /* Coral Dark */
-  --coral-dark: color(display-p3 0.6 0.1 0.1);
-  --coral-dark-fallback: color(sRGB 0.6 0.1 0.1);
-
-  /* Salmon Dark */
-  --salmon-dark: color(display-p3 0.6 0.4 0.1);
-  --salmon-dark-fallback: color(sRGB 0.6 0.4 0.1);
-
-  --pale-yellow-dark: color(display-p3 0.6 0.6 0.2);
-  --pale-yellow-dark-fallback: color(sRGB 0.6 0.6 0.2);
-
-  --pale-turquoise-dark: color(display-p3 0.4 0.6 0.4);
-  --pale-turquoise-dark-fallback: color(sRGB 0.4 0.6 0.4);
-
-  --slate-blue-dark: color(display-p3 0.2 0.2 0.6);
-  --slate-blue-dark-fallback: color(sRGB 0.2 0.2 0.6);
-}
-
-/* Media Query to Detect Lack of Display P3 Support */
-@media (color-gamut: srgb) {
-  :root {
-    /* SRGB fallback */
-    --coral: var(--coral-fallback);
-    --salmon: var(--salmon-fallback);
-    --pale-yellow: var(--pale-yellow-fallback);
-    --pale-turquoise: var(--pale-turquoise-fallback);
-    --slate-blue: var(--slate-blue-fallback);
-    --coral-dark: var(--coral-dark-fallback);
-    --salmon-dark: var(--salmon-dark-fallback);
-    --pale-yellow-dark: var(--pale-yellow-dark-fallback);
-    --pale-turquoise-dark: var(--pale-turquoise-dark-fallback);
-    --slate-blue-dark: var(--slate-blue-dark-fallback);
-  }
+  /* Sky Blue */
+  --sky-blue-light: lch(80% 23.5 243);
+  --sky-blue-dark: lch(20% 14.2 243);
 }
 
 [data-theme=light],
