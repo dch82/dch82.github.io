@@ -20,7 +20,7 @@
     <style>
       /* Light color scheme (Default) */
       :root:not([data-theme="dark"]) {
-        background-color: var(--pale-turquoise);
+        --pico-background-color: var(--pale-turquoise);
         --pico-card-background-color: var(--pale-turquoise);
         --pico-card-sectioning-background-color: var(--pale-turquoise);
         --pico-card-border-color: var(--pale-turquoise-dark);
@@ -29,7 +29,7 @@
       /* Automatically enabled if user has Dark mode enabled */
       @media only screen and (prefers-color-scheme: dark) {
         :root:not([data-theme]) {
-          background-color: var(--pale-turquoise-dark);
+          --pico-background-color: var(--pale-turquoise-dark);
           --pico-card-background-color: var(--pale-turquoise-dark);
           --pico-card-sectioning-background-color: var(--pale-turquoise-dark);
           --pico-card-border-color: var(--pale-turquoise);
