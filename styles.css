@@ -43,10 +43,7 @@ article {
   --sky-blue-dark: lch(20% 14.2 243);
 }
 
-a {
-  --pico-text-decoration: underline wavy;
-}
-a.secondary, a.contrast {
+:root {
   --pico-text-decoration: underline wavy;
 }
 
