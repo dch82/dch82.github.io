@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Danche Choi | Icons
+    </title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <script src="/header.js" type="text/javascript" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.sand.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      /* Light color scheme (Default) */
+      :root:not([data-theme="dark"]) {
+        --pico-background-color: var(--melon-red-light);
+      }
+      /* Dark color scheme (Auto) */
+      /* Automatically enabled if user has Dark mode enabled */
+      @media only screen and (prefers-color-scheme: dark) {
+        :root:not([data-theme]) {
+          --pico-background-color: var(--melon-red-dark);
+        }
+      }
+    </style>
+
+    <meta name="theme-color" content="var(--melon-red-light)" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="var(--melon-red-dark)" media="(prefers-color-scheme: dark)">
+    <a rel="me" href="https://defcon.social/@dch82" hidden>Mastodon</a>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <header-component></header-component>
+    </header>
+    <main class="container-fluid">
+      <section id="Thoughts">
+        <h2>
+          Thoughts
+        </h2>
+      </section>
+    </main>
+  </body>
+</html>
+
