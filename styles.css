@@ -1,5 +1,6 @@
 article {
-  outline-style: solid
+  outline-style: solid;
+  outline-width: 0.0625rem;
 }
 /* Pastel Colors with Display P3 and sRGB Fallbacks (including dark variants) */
 :root {
