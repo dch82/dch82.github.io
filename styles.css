@@ -44,7 +44,7 @@ article {
 }
 
 :root {
-  --pico-text-decoration: underline wavy;
+  --pico-text-decoration: wavy;
 }
 
 [data-theme=light],
