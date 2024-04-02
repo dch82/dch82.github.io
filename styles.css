@@ -7,7 +7,6 @@
   :root { --pico-font-family-san-serif: InterVariable, sans-serif; }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 :root {
   --pico-font-family-monospace: "Roboto Mono", monospace;
 }
