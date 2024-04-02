@@ -2,6 +2,7 @@
   --pico-outline-width: 0.125rem;
   --pico-border-width: 0.125rem;
   border-width: 0.125rem;
+  outline-width: 0.125rem;
 }
 
 article {
