@@ -1,7 +1,10 @@
 article {
   border-style: solid;
-  border-width: --pico-outline-width;
-  border-radius: --pico-border-radius;
+}
+
+:root {
+  --pico-outline-width: var(--pico-border-width);
+  border-width: var(--pico-border-width);
 }
 /* Pastel Colors with Display P3 and sRGB Fallbacks (including dark variants) */
 :root {
