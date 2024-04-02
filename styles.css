@@ -1,7 +1,22 @@
+/* Inter */
+:root {
+  --pico-font-family-sans-serif: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { --pico-font-family-san-serif: InterVariable, sans-serif; }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+:root {
+  --pico-font-family-monospace: "Roboto Mono", monospace;
+}
+
 article {
   outline-style: solid;
   outline-width: 0.0625rem;
 }
+
 /* Pastel Colors with Display P3 and sRGB Fallbacks (including dark variants) */
 :root {
   /* Coral */
