@@ -79,7 +79,7 @@ article {
   --pico-contrast-hover-underline: var(--pico-secondary-hover);
   --pico-contrast-focus: var(--pico-color);
   --pico-contrast-inverse: var(--pico-background-color);
-  --pico-box-shadow: 0 0 0 rgba(0, 0, 0, 0)
+  --pico-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   --pico-h1-color: var(--pico-color);
   --pico-h2-color: var(--pico-color);
   --pico-h3-color: var(--pico-color);
