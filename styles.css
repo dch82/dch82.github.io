@@ -14,6 +14,15 @@
   --pico-border-radius: 1rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --pico-font-family: 'Open Runde', Inter, sans-serif;
+}
+
 article {
   outline-style: solid;
   outline-width: 0.0625rem;
