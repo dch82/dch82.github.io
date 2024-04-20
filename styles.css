@@ -9,6 +9,8 @@
 
 :root {
   --pico-font-family-monospace: "Roboto Mono", monospace;
+  --pico-border-width: 0.0625rem;
+  --pico-outline-width: 0.0625rem;
 }
 
 article {
