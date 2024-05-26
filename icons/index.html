@@ -1,184 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <title>
-      Danche Choi | Thoughts
-    </title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <script src="/header.js" type="text/javascript" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.sand.min.css"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
-    <link rel="stylesheet" href="/styles.css" />
-    
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
-    <a rel="me" href="https://defcon.social/@dch82" hidden>Mastodon</a>
-  </head>
-  <body>
-    <header class="container-fluid">
-      <header-component></header-component>
-    </header>
-    <main class="container-fluid">
-      <section id="icons">
-        <div class="row">
-          <div class="col-xs-12
-                      col-sm-12
-                      col-md-12
-                      col-lg-12">
-            <h2>
-              Icons
-            </h2>
-            <p>
-              This is my collection of icons, made for macOS.
-              These used to be put on macOSicons.com
-              until I felt these were not suited to be published there.
-              Please enjoy these, and of course,
-              you can find the source on my Figma page.
-              These icons are more skeuomorphic than the default macOS icons
-              but are more simple than the old aqua icons.
-            </p>
-            <p>
-              To download, just save the images.
-            </p>
-            <details>
-              <summary role="button" class="outline">How to install</summary>
-              <i><b>Finder requires different steps</b></i>
-              <ol>
-                <li>
-                  <span>
-                  To theme system icons,
-                  you need to
-                  </span>
-                  <a href="https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection#SIP">
-                    <span>
-                      disable System Integrity Protection
-                    </span>
-                  </a>
-                  <span>
-                    first.
-                  </span>
-                </li>
-                <li>
-                  Select the application you want to theme in Finder.
-                  It might be in <code>/Application</code> or <code>/Users/<i>username</i>/Applications</code>.
-                </li>
-                <li>
-                  Choose <code>File > Get Info</code> or enter <kbd>⌘</kbd>+<kbd>I</kbd>.
-                </li>
-                <li>
-                  Drag-and-drop the downloaded icon onto the icon onto the existing icon on the Get Info menu.
-                </li>
-                <li>
-                  You may need to unpin the icon to see it refresh
-                </li>
-              </ol>
-            </details>
-          </div>
-          <div class="col-xs-12
-                      col-sm-6
-                      col-md-4
-                      col-lg-3">
-            <article>
-              <header>
-                Video Terminal
-              </header>
-              <img src="Terminal.png"
-                alt="Beige icon for Terminal which looks like 70s' terminals and has the symbols >_ on the screen.">
-            </article>
-          </div>
-          <div class="col-xs-12
-                      col-sm-6
-                      col-md-4
-                      col-lg-3">
-            <article>
-              <header>
-                Voice Memos with Buttons
-              </header>
-              <img src="Voice Memos.png"
-                alt="Beige icon for Voice Memos which has skeuomorphic record, pause/play, rewind and fast forward icons.">
-            </article>
-          </div>
-          <div class="col-xs-12
-                      col-sm-6
-                      col-md-4
-                      col-lg-3">
-            <article>
-              <header>
-                iPod Music
-              </header>
-              <img src="Music.png" alt="iPod-inspired clickwheel icon for the MacOS Music app">
-            </article>
-          </div>
-          <div class="col-xs-12
-                      col-sm-6
-                      col-md-4
-                      col-lg-3">
-            <article>
-              <header>
-                Cardboard Box App Store
-              </header>
-              <img src="App Store.png" alt="Icon for the App Store, but it is a cardboard box with a blue tape on it">
-            </article>
-          </div>
-          <div class="col-xs-12
-                      col-sm-6
-                      col-md-4
-                      col-lg-3">
-            <article>
-              <header>
-                Paper Folder Finder
-              </header>
-              <img src="Finder.png" alt="Icon for Finder, but it is a rainbow folder with holes punched.">
-            </article>
-          </div>
-          <div class="col-xs-12
-                      col-sm-6
-                      col-md-4
-                      col-lg-3">
-            <article>
-              <header>
-                CD Player Spotify
-              </header>
-              <img src="Spotify.png" alt="Icon for Spotify but it is a lidless metal CD player.">
-            </article>
-          </div>
-          <div class="col-xs-12
-                      col-sm-6
-                      col-md-4
-                      col-lg-3">
-            <article>
-              <header>
-                CD Player Youtube Music
-              </header>
-              <img src="Youtube Music.png" alt="Icon for Youtube Music but it is a lidless metal CD player.">
-            </article>
-          </div>
-          <div class="col-xs-12
-          col-sm-6
-          col-md-4
-          col-lg-3">
-          <article>
-            <header>
-              Blinkenlights Tailscale
-            </header>
-            <img src="Tailscale.png" alt="Icon for Tailscale, but it is a grid of blinkenlights where the dots were.">
-          </article>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title>
+    Danche Choi | Icons
+  </title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <a rel="me" href="https://defcon.social/@dch82" hidden>Mastodon</a>
+  <style>
+    img{
+      max-height:500px;
+      max-width:500px;
+      height:auto;
+      width:auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/"><h1>Danche Choi</h1></a>
+  </header>
+  <main class="container-fluid">
+    <section id="icons">
+      <h2>
+        Icons
+      </h2>
+      <p>
+        This is my collection of icons, made for macOS.
+        These used to be put on macOSicons.com
+        until I felt these were not suited to be published there.
+        Please enjoy these, and of course,
+        you can find the source on my Figma page.
+        These icons are more skeuomorphic than the default macOS icons
+        but are more simple than the old aqua icons.
+      </p>
+      <p>
+        To download, just save the images.
+      </p>
+      <article>
+        <h3>How to install</h3>
+        <h4>**Finder requires different steps**</h4>
+        <ol>
+          <li>
+            <span>
+              To theme system icons,
+              you need to
+            </span>
+            <a href="https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection#SIP">
+              <span>
+                disable System Integrity Protection
+              </span>
+            </a>
+            <span>
+              first.
+            </span>
+          </li>
+          <li>
+            Select the application you want to theme in Finder.
+            It might be in <code>/Application</code> or <code>/Users/<i>username</i>/Applications</code>.
+          </li>
+          <li>
+            Choose <code>File > Get Info</code> or enter <kbd>⌘</kbd>+<kbd>I</kbd>.
+          </li>
+          <li>
+            Drag-and-drop the downloaded icon onto the icon onto the existing icon on the Get Info menu.
+          </li>
+          <li>
+            You may need to unpin the icon to see it refresh
+          </li>
+        </ol>
+      </article>
+      <article>
+        <h3>
+          Video Terminal
+        </h3>
+        <img src="Terminal.png"
+        alt="Beige icon for Terminal which looks like 70s' terminals and has the symbols >_ on the screen.">
+      </article>
+      <article>
+        <h3>
+          Voice Memos with Buttons
+        </h3>
+        <img src="Voice Memos.png"
+        alt="Beige icon for Voice Memos which has skeuomorphic record, pause/play, rewind and fast forward icons.">
+      </article>
+      <article>
+        <h3>
+          iPod Music
+        </h3>
+        <img src="Music.png" alt="iPod-inspired clickwheel icon for the MacOS Music app">
+      </article>
+      <article>
+        <h3>
+          Cardboard Box App Store
+        </h3>
+        <img src="App Store.png" alt="Icon for the App Store, but it is a cardboard box with a blue tape on it">
+      </article>
+      <article>
+        <h3>
+          Paper Folder Finder
+        </h3>
+        <img src="Finder.png" alt="Icon for Finder, but it is a rainbow folder with holes punched.">
+      </article>
+      <article>
+        <h3>
+          CD Player Spotify
+        </h3>
+        <img src="Spotify.png" alt="Icon for Spotify but it is a lidless metal CD player.">
+      </article>
+      <article>
+        <h3>
+          CD Player Youtube Music
+        </h3>
+        <img src="Youtube Music.png" alt="Icon for Youtube Music but it is a lidless metal CD player.">
+      </article>
+      <article>
+        <h3>
+          Blinkenlights Tailscale
+        </h3>
+        <img src="Tailscale.png" alt="Icon for Tailscale, but it is a grid of blinkenlights where the dots were.">
+      </article>
+    </section>
+  </main>
+</body>
 </html>
 
