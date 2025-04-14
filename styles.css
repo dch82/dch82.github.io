@@ -1,0 +1,9 @@
+@import url("https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.jade.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Iosevka/6.0.0/iosevka-aile/iosevka-aile.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Iosevka/6.0.0/iosevka/iosevka.min.css");
+
+:root {
+    /* Setting the fonts */
+    --pico-font-family: "Iosevka Aile Web", "Iosevka Aile", sans-serif;
+    --pico-font-family-monospace: "Iosevka Web", "Iosevka", monospace
+}
