@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.jade.min.css");
-@import url("fonts/IosevkaAile.css")
-@import url("fonts/Iosevka.css")
+@import url("fonts/IosevkaAile.css");
+@import url("fonts/Iosevka.css");
 :root {
   /* Setting the fonts */
   --pico-font-family: "Iosevka Aile Web", sans-serif;
