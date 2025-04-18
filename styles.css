@@ -3,6 +3,6 @@
 @import url("fonts/Iosevka.css");
 :root {
   /* Setting the fonts */
-  --pico-font-family: "Iosevka Aile Web", sans-serif;
+  --pico-font-family-sans-serif: "Iosevka Aile Web", sans-serif;
   --pico-font-family-monospace: "Iosevka Web", monospace
 }
