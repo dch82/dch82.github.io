@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Adwaita Mono";
+  font-weight: normal;
+  font-style: normal;
+  src: url("TTF/AdwaitaMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Adwaita Mono";
+  font-weight: bold;
+  font-style: normal;
+  src: url("TTF/AdwaitaMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Adwaita Mono";
+  font-weight: normal;
+  font-style: italic;
+  src: url("TTF/AdwaitaMono-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Adwaita Mono";
+  font-weight: bold;
+  font-style: italic;
+  src: url("TTF/AdwaitaMono-BoldItalic.ttf");
+}
