@@ -4,6 +4,6 @@
 
 :root {
   /* Setting the fonts */
-  --pico-font-family-sans-serif: "Inter", system-ui, sans-serif;
+  --pico-font-family-sans-serif: "InterVariable", "Inter", system-ui, sans-serif;
   --pico-font-family-monospace: "Adwaita Mono", monospace;
 }
