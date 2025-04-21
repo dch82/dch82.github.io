@@ -7,3 +7,20 @@
   --pico-font-family-sans-serif: "InterVariable", "Inter", system-ui, sans-serif;
   --pico-font-family-monospace: "Adwaita Mono", monospace;
 }
+
+.grid-container section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.grid-picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.grid-item {
+  max-height: 500px;
+  width: 500px;
+}
