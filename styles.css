@@ -8,13 +8,24 @@
   --pico-font-family-monospace: "Adwaita Mono", monospace;
 }
 
-.grid-container section {
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
 
-.grid-picture img {
+@media (min-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid-picture {
   height: 100%;
   width: 100%;
   object-fit: contain;
