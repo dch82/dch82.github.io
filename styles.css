@@ -13,25 +13,19 @@
   grid-gap: 1rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 720px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1080px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .grid-picture {
-  height: 100%;
   width: 100%;
   object-fit: contain;
-}
-
-.grid-item {
-  max-height: 500px;
-  width: 500px;
 }
